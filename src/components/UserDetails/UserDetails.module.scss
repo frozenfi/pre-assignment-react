@@ -1,0 +1,23 @@
+// UserDetails component styles
+
+.detailsContainer {
+   display: grid;
+   margin: 25px;
+   padding: 25px;
+   color: #0b3948;
+   border-radius: 5px;
+   align-items: center;
+   border: 1px solid #d2d2d2;
+   grid-template-columns: max-content max-content;
+   h3 {
+      padding: 15px 40px 15px 0;
+   }
+   p {
+      padding: 15px 0;
+   }
+   button {
+      margin-top: 20px;
+      grid-column: 2 / 3;
+      justify-self: end;
+   }
+}

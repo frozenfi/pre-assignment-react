@@ -1,0 +1,7 @@
+// Home screen styles
+
+.home {
+   display: grid;
+   justify-content: space-around;
+   grid-template-columns: repeat(auto-fill, 300px);
+}
